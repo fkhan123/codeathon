@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <title>Angular project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js"></script>
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/Rx.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/router.dev.js"></script>
+	<script src="https://code.angularjs.org/2.0.0-beta.0/http.dev.js"></script>
+	<script src="node_modules/xlsx/dist/xlsx.core.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+ </head>
+    <script>
+      System.config({
+        transpiler: 'typescript', 
+        typescriptOptions: { emitDecoratorMetadata: true }, 
+        packages: {'app': {defaultExtension: 'ts'}} 
+      });
+      System.import('app/boot')
+            .then(null, console.error.bind(console));
+    </script>
+  
+  </head>
+  <body>
+  
+  	 <div id="u233" class="ax_image">
+        <img id="u233_img" class="img " src="./images/hartford.jpg"/>
+        <div id="u234" class="text" style="top: 41px; transform-origin: 39.5px 0px 0px;">
+          <p><span></span></p>
+        </div>
+      </div>
+	
+  <img id="u229_img" class="img " src="./images/headerblue.png"/>
+  <body>
+    <my-app>loading...</my-app>
+  </body>
+  <div class="blue-slider"></div>
+
+</html>
